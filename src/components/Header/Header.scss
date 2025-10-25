@@ -14,19 +14,34 @@ $text16: 16px;
   display: flex;
   align-items: center;
   justify-content: end;
-  .nav-bar {
-    display: flex;
-    gap: 50px;
-    font-size: $text16;
-    font-weight: 700;
 
-    .nav-items {
-      gap: 50px;
-    }
+}
 
-    .nav-icon {
-      display: flex;
-      gap: 40px;
+// --->> MOBILE VIEW <<----
+@media screen and (max-width: 576px) {
+
+  .header {
+    .navbar-collapse {
+      position: absolute;
+      top: 0;
+      margin-top: 60px;
     }
   }
+
 }
+
+// .nav-bar {
+//   display: flex;
+//   gap: 50px;
+//   font-size: $text16;
+//   font-weight: 700;
+
+//   .nav-items {
+//     gap: 50px;
+//   }
+
+//   .nav-icon {
+//     display: flex;
+//     gap: 40px;
+//   }
+// }
