@@ -9,7 +9,7 @@ import cartIcon from '../../assets/icons/shopping_cart.png';
 function Header() {
   return (
     // Nav-Bar
-    <div className="container">
+    <div className="container header">
       <div className="nav-bar">
         <div className="nav-items d-flex">
           <a href="#!" className="nav-link">Home</a>

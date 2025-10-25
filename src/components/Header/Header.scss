@@ -1,23 +1,23 @@
 $lightYellow: #FBEBB5;
 $text16: 16px;
 
-.container {
+.header {
   background-color: $lightYellow;
-  height: 100px;
-
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
   .nav-bar {
     display: flex;
-    justify-content: space-around;
+    gap: 50px;
     font-size: $text16;
     font-weight: 700;
 
     .nav-items {
-      margin-top: 40px;
       gap: 50px;
     }
 
     .nav-icon {
-      margin-top: 40px;
       display: flex;
       gap: 40px;
     }
