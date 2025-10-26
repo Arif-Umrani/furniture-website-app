@@ -12,6 +12,7 @@ $text24: 24px;
 
 .landing-banner {
   background-color: $lightYellow;
+  padding-bottom: 200px;
 
   h2 {
     font-size: $text64;
@@ -20,10 +21,10 @@ $text24: 24px;
 
   h4 {
     font-weight: 700;
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 6px;
-  text-align: start;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+    text-align: start;
   }
 
   img {
