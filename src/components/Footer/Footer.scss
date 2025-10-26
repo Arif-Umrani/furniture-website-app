@@ -1,11 +1,5 @@
-// Color Variables
-$blackColor: #000000;
-$grayColor: #9F9F9F;
-$lightGray: #D9D9D9;
-$white: #FFFFFF;
-$lightGrayf4: #F4F4F4;
-$lightYellow: #FBEBB5;
-$ashGray: #FFF9E5;
+// Variables Import
+@import '../../styles/Variables.scss';
  
  .footer-address {
     color: $grayColor;
