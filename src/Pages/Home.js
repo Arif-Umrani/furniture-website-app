@@ -1,9 +1,18 @@
 import React from "react";
 import './Home.scss';
+
+// Landing Banner Image
 import landingImage from '../../src/assets/images/single_sofa.png';
+
+// Coffee Sitting Section Images
 import coffeeTabel from '../assets/images/coffee_table.png';
 import coffeeSofa from '../assets/images/double_sofa.png';
 
+// Top Picks Section Images
+import picksSofa from '../assets/images/sofa1_toppick.png';
+import picksDining from '../assets/images/dining_toppick.png';
+import picksStool from '../assets/images/stool_toppick.png';
+import picksMirror from '../assets/images/mirror_toppick.png';
 
 function Home() {
   return (
@@ -45,6 +54,38 @@ function Home() {
         </div>
       </section>
 
+      {/* Top Picks Section */}
+      <section className="top-picks-section">
+        <div className="container">
+          <h3 className="sub-title mt-5">Top Picks For You</h3>
+          <p className="text-mute">Find a bright ideal to suit your taste with our great selection of suspension,
+            floor and table lights.
+          </p>
+          <div className="row">
+            <div className="col-md-6 col-lg-3">
+              <img src={picksSofa} alt="sofa" />
+              <p>Trenton modular sofa_3</p>
+              <h4 className="fw-bold">Rs.25.000.00</h4>
+            </div>
+            <div className="col-md-6 col-lg-3">
+              <img src={picksDining} alt="dining table" />
+              <p>Granite dining table & dining chair</p>
+              <h4 className="fw-bold">Rs.25.000.00</h4>
+            </div>
+            <div className="col-md-6 col-lg-3">
+              <img src={picksStool} alt="stool set" />
+              <p>Outdoor bar table and stool</p>
+              <h4 className="fw-bold">Rs.25.000.00</h4>
+            </div>
+            <div className="col-md-6 col-lg-3">
+              <img src={picksMirror} alt="mirror set" />
+              <p>Plain console with teak mirror</p>
+              <h4 className="fw-bold">Rs.25.000.00</h4>
+            </div>
+          </div>
+          <h4 className="underline-links mt-5 mb-5">View More</h4>
+        </div>
+      </section>
     </main>
   )
 }
