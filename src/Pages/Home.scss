@@ -38,7 +38,6 @@
     height: 400px;
     margin-top: 60px;
   }
-
 }
 
 .underline-links {
@@ -71,5 +70,21 @@
     background: transparent;
     height: 64px;
     width: 40%;
+  }
+}
+
+// Blog Section
+.blog-section {
+  .blog-img {
+    width: 100%;
+  }
+
+  p {
+    font-size: $text20;
+  }
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
   }
 }

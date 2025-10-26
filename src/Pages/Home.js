@@ -17,6 +17,13 @@ import picksMirror from '../assets/images/mirror_toppick.png';
 // New Arrival Section Images
 import sofaSet from '../assets/images/newArival_set.png';
 
+// Blog Icon Image
+import teaBook from '../assets/images/book_tea_blog.png';
+import laptopBlog from '../assets/images/laptop_blog.png';
+import workstationBlog from '../assets/images/workstation.png';
+// Blog Icons
+import clockIcon from '../assets/icons/clock_icon.png';
+import calendarIcon from '../assets/icons/calender_blog.png';
 
 
 function Home() {
@@ -107,7 +114,64 @@ function Home() {
           </div>
         </div>
       </section>
-      
+
+      {/* Blog Section */}
+      <section className="blog-section">
+        <div className="container">
+          <h3 className="sub-title mt-5 mb-3">Our Blogs</h3>
+          <p className="text-mute mb-4">Find a bright ideal to suit your taste with our great selection.</p>
+          <div className="row justify-content-between mt-5">
+            <div className="col-lg-4">
+              <img src={teaBook} className="blog-img" alt="tea and book" />
+              <p className="mt-4">Going all-in with millenial design</p>
+              <h4 className="underline-links fw-bold m4-5 mb-4">Read More</h4>
+              <div className="icon-container">
+                <p className="pb">
+                  <img src={clockIcon} className="me-2" alt="clock icon" />
+                  5 min
+                </p>
+                <p>
+                  <img src={calendarIcon} className="me-2" alt="calendar icon" />
+                  12th Oct 2025</p>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <img src={laptopBlog} className="blog-img" alt="laptop" />
+              <p className="mt-4">Going all-in with millenial design</p>
+              <h4 className="underline-links fw-bold mt-4 mb-4">Read More</h4>
+              <div className="icon-container">
+                <p className="pb">
+                  <img src={clockIcon} className="me-2" alt="clock icon" />
+                  5 min
+                </p>
+                <p>
+                  <img src={calendarIcon} className="me-2" alt="calendar icon" />
+                  12th Oct 2025</p>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <img src={workstationBlog} className="blog-img" alt="laptop work-station" />
+              <p className="mt-4">Going all-in with millenial design</p>
+              <h4 className="underline-links fw-bold mt-4 mb-4">Read More</h4>
+              <div className="icon-container mb-5">
+                <p className="pb">
+                  <img src={clockIcon} className="me-2" alt="clock icon" />
+                  5 min
+                </p>
+                <p>
+                  <img src={calendarIcon} className="me-2" alt="calendar icon" />
+                  12th Oct 2025</p>
+              </div>
+            </div>
+          </div>
+          <h4 className="underline-links mt-5 mb-5">View More</h4>
+        </div>
+      </section>
+
+
+
+
+
     </main>
   )
 }
