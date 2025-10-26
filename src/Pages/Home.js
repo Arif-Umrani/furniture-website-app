@@ -10,7 +10,7 @@ function Home () {
       <div className="row align-items-center">
         <div className="col-lg-6">
           <h2>Rocket single  <br/> seater</h2><br/>
-          <h4>Shop Now</h4>
+          <h4 className="underline-links">Shop Now</h4>
         </div>
         <div className="col-lg-6">
           <img src={landingImage} alt="Sofa" />
@@ -19,7 +19,7 @@ function Home () {
     </div>
     </section>
 
-    
+
   )
 }
 
