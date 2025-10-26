@@ -11,3 +11,13 @@ $ashGray: #FFF9E5;
 $text16: 16px;
 $text24: 24px;
 $text64: 64px;
+
+// Mixins
+
+@mixin underline-link {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+    cursor: pointer;
+}
