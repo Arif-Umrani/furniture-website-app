@@ -40,6 +40,7 @@
   }
 
 }
+
 .underline-links {
   @include underline-link;
 }
@@ -51,7 +52,24 @@
 }
 
 // Top Picks Section
-
 .text-mute {
   color: $grayColor;
+}
+
+// New Arrival Section
+.new-arrival-section {
+  background-color: $bgLightYellow;
+
+  img {
+    width: 100%;
+  }
+  h2 {
+    font-size: $text48;
+  }
+  button {
+    box-shadow: 0px 0px 0px 0px black;
+    background: transparent;
+    height: 64px;
+    width: 40%;
+  }
 }

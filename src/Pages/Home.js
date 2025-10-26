@@ -14,6 +14,11 @@ import picksDining from '../assets/images/dining_toppick.png';
 import picksStool from '../assets/images/stool_toppick.png';
 import picksMirror from '../assets/images/mirror_toppick.png';
 
+// New Arrival Section Images
+import sofaSet from '../assets/images/newArival_set.png';
+
+
+
 function Home() {
   return (
     <main>
@@ -86,6 +91,23 @@ function Home() {
           <h4 className="underline-links mt-5 mb-5">View More</h4>
         </div>
       </section>
+
+      {/* New Arrival Section */}
+      <section className="new-arrival-section">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-7">
+              <img src={sofaSet} alt="sofa set" />
+            </div>
+            <div className="col-lg-5">
+              <h4 className="fw-bold">New Arrivals</h4>
+              <h2 className="fw-bold">Asgaard sofa</h2>
+              <button className="mt-4">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
     </main>
   )
 }
