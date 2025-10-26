@@ -1,0 +1,32 @@
+// Color Variables
+$blackColor: #000000;
+$grayColor: #9F9F9F;
+$lightGray: #D9D9D9;
+$white: #FFFFFF;
+$lightGrayf4: #F4F4F4;
+$lightYellow: #FBEBB5;
+$ashGray: #FFF9E5;
+$text16: 16px;
+$text64: 64px;
+$text24: 24px;
+
+.landing-banner {
+  background-color: $lightYellow;
+
+  h2 {
+    font-size: $text64;
+    text-align: start;
+  }
+
+  h4 {
+    font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+  text-align: start;
+  }
+
+  img {
+    width: 100%;
+  }
+}
