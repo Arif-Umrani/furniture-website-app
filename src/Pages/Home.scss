@@ -62,9 +62,11 @@
   img {
     width: 100%;
   }
+
   h2 {
     font-size: $text48;
   }
+
   button {
     box-shadow: 0px 0px 0px 0px black;
     background: transparent;
@@ -82,9 +84,46 @@
   p {
     font-size: $text20;
   }
+
   .icon-container {
     display: flex;
     justify-content: center;
     gap: 20px;
+  }
+}
+
+// Instagram Section
+.instagram-section {
+  margin-top: 80px;
+
+  .container {
+    background-image: url(../assets/images/bGinstagram_section.png);
+    background-size: cover;
+    background-position: right;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: $text64;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: $text20;
+    font-weight: 600;
+  }
+
+  button {
+    width: 20%;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: -1px 3px 9px 0px #D4D4D4;
+    background-color: transparent;
+
   }
 }

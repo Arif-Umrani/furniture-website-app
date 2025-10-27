@@ -26,10 +26,13 @@ import clockIcon from '../assets/icons/clock_icon.png';
 import calendarIcon from '../assets/icons/calender_blog.png';
 
 
+
+
 function Home() {
   return (
     <main>
-      {/* Landing Banner */}
+
+      {/* Landing Banner Section */}
       <section className="landing-banner">
         <div className="container">
           <div className="row align-items-center">
@@ -168,10 +171,14 @@ function Home() {
         </div>
       </section>
 
-
-
-
-
+      {/* Instagram Section */}
+      <section className="instagram-section">
+        <div className="container">
+          <h2>Our Instagram</h2>
+          <p>Follow our store on Instagram</p>
+          <button>Follow Us</button>
+        </div>
+      </section>
     </main>
   )
 }
