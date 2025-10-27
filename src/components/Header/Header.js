@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from 'react-router-dom';
+
 import './Header.scss'
 import alertIcon from '../../assets/icons/account_alert.png'
 import searchIcon from '../../assets/icons/icons_search.png';
@@ -25,10 +27,11 @@ function Header() {
               <div class="collapse navbar-collapse text-nav" id="textNavbar">
                 <ul class="navbar-nav d-flex">
                   <li class="nav-item">
-                    <a class="nav-link" href="#!">Home</a>
+                    {/* <a class="nav-link" href="#!">Home</a> */}
+                    <Link to="/" className="nav-link">Home</Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#!">Shop</a>
+                    <Link to="/Shop" className="nav-link">Shop</Link>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#!">About</a>

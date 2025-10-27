@@ -1,0 +1,35 @@
+// Variables Import
+@import '../styles/Variables.scss';
+
+// Shop Banner Section
+.shop-banner-section {
+  background-image: url('../assets/images/topBg_allPages.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  h2 {
+    font-size: $text48;
+  }
+}
+
+// Shop Info Section
+.shop-info-section {
+  background-color: $lightPinkish;
+  height: 100px;
+  p {
+    font-size: $text20;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  button {
+    background-color: $white;
+    border: 0;
+    width: 30%;
+  }
+}

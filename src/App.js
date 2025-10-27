@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 
-// import { Routes, Route } from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -13,8 +13,12 @@ function App() {
     <div className="App">
 
       <Header />
-      <Home />
-      <Shop />
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Shop' element={<Shop />} />
+      </Routes>
+      
       <Footer />
 
       {
