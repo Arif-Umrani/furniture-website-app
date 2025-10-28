@@ -160,6 +160,26 @@ function Shop() {
           </div>
         </div>
       </section>
+
+      {/* Customer Suppot Section */}
+      <section className="customer-support-section">
+        <div className="container">
+          <div className="row customer-support-row text-start mt-5">
+            <div className="col-sm-12 col-lg-4">
+              <h3>Free Delivery</h3>
+              <p className="text-mute">For all orders over $50, consectur adipim scing elit.</p>
+            </div>
+            <div className="col-sm-12 col-lg-4">
+              <h3>90 Days Return</h3>
+              <p className="text-mute">If goods have problems, consetetur adipim scing elit.</p>
+            </div>
+            <div className="col-sm-12 col-lg-4">
+              <h3>Secure Payment</h3>
+              <p className="text-mute">100% secure payments, consectur adipim scing elit.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
