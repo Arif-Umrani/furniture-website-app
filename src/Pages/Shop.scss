@@ -21,11 +21,11 @@
 // Shop Info Section
 .shop-info-section {
   background-color: $lightPinkish;
-  height: 100px;
 
   p {
     font-size: $text20;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
   }
 
